@@ -1,7 +1,13 @@
 Learn Git
-git init
-git status
-git add
-git commit -m "info"
+git init 			//当前目录使用git
+vim readme  			//创建文件
+git add readme 			//将文件加入暂存区
+git status 			//查看工作区状态
+git diff readme 		//版本对比
+git commit -m "info" 		//提交
 git config --global user.email ""
 git config --global user.user ""
+git log
+git reset --hard commit_id
+git reset --hard HEAD^
+git reflog
