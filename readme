@@ -2,7 +2,7 @@ Learn Git
 git init 			//当前目录使用git
 vim readme  			//创建文件
 git add readme 			//将文件加入暂存区
-git status 			//查看工作区状态
+git status 			//查看工作区 暂存区状态
 git diff readme 		//版本对比
 git commit -m "info" 		//提交
 git config --global user.email ""
@@ -12,3 +12,6 @@ git reset --hard commit_id
 git reset --hard HEAD^
 git reflog
 git track changes.
+git restore <file>
+git checkout -- <file>
+git reset HEAD <file>	//把暂存区的修改撤销掉(unstage),重新放回工作区
