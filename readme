@@ -15,3 +15,4 @@ git track changes.
 git restore <file>
 git checkout -- <file>
 git reset HEAD <file>	//把暂存区的修改撤销掉(unstage),重新放回工作区
+成功和Github远程库连接！
