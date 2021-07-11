@@ -3,3 +3,5 @@ git init
 git status
 git add
 git commit -m "info"
+git config --global user.email ""
+git config --global user.user ""
